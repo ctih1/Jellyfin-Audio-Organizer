@@ -16,8 +16,8 @@ The songs will be organized like this:
 /Music
   /Kanye West
     /The Life Of Pablo
-      /02 - Kanye West - Father Stretch My Hands Pt. 1.mp3
-      /...
+      02 - Kanye West - Father Stretch My Hands Pt. 1.mp3
+      ...
 ```
 
 if the programs fails to detect something it will default to "Unknown".
@@ -26,7 +26,7 @@ if the programs fails to detect something it will default to "Unknown".
 /Music
   /Unknown
     /Unknown
-      /Unknown - (song name).mp3
+      Unknown - (song name).mp3
 ```
 
 Built with Java 11 (corretto)
