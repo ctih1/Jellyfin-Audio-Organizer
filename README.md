@@ -2,6 +2,7 @@
 A simple program that organizes files in the "jellyfin" way.
 
 The songs will be organized like this:
+(note: /Music (aka base path) should be the directory where the mp3 files are stored.)
 ```
 /Music
     /Artist
