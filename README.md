@@ -37,6 +37,14 @@ if the programs fails to detect something it will default to "Unknown".
 - The program will generate the correct folders in the same path (cannot be changed at the moment)
 
 # Dependencies
+- mp3agic (com.mpatric) version 0.9.1
 
+# Download instructions
+Using the Jar: ( !! Coming soon !! )
+Download the jar-file.
+Run the said jar-file like this:
+```
+java -jar path\to\jar
+```
 
 Built with Java 11 (corretto)
