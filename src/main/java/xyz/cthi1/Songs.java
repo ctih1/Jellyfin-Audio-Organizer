@@ -18,7 +18,7 @@ public class Songs {
         Main.files = folder.listFiles().length;
         if(this.folder.isDirectory()) {
             for(File file : folder.listFiles()) {
-                if(file.getName().endsWith(".mp3")) {
+                if((!file.isDirectory()) && file.getName().endsWith(".mp3")) {
                     files.add(file);
                 }
 
