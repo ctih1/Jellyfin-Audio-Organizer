@@ -20,7 +20,7 @@ public class Sort {
         completeDestination = Paths.get(String.valueOf(destination), data.GetSongNumber() + " - " + String.valueOf(song.getFileName()));
         Files.createDirectories(destination.toPath());
         if(!completeDestination.toFile().exists()) {
-            Files.copy(source.toPath(), completeDestination);
+            Files.move(source.toPath(), completeDestination, StandardCopyOption.REPLACE_EXISTING);
         }
         Main.completed++;
     }
