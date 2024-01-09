@@ -40,8 +40,8 @@ if the programs fails to detect something it will default to "Unknown".
 - mp3agic (com.mpatric) version 0.9.1
 
 # Download instructions
-Using the Jar: ( !! Coming soon !! )
-Download the jar-file.
+Using the Jar:
+Download the jar-file from releases.
 Run the said jar-file like this:
 ```
 java -jar path\to\jar
